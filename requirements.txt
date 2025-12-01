@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow==2.16.1
+tensorflow-lite-support
+jupyterlab
+ipywidgets

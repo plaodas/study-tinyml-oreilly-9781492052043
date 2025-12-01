@@ -1,0 +1,15 @@
+name: tinyml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - tensorflow==2.16.1          # PC での学習用
+      - tensorflow-lite-support
+      - ipywidgets

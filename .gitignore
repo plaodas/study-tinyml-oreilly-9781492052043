@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert*
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Data & models (大きいものは追わない)
+data/raw/
+data/processed/
+models/saved/
+models/experiments/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
