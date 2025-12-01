@@ -18,14 +18,26 @@
 
 ## 章ごとのメモ予定
 
-- [ ] 第 1 章: TinyML とは何か → `docs/01_notes_ch1_intro_tinyml.md`
-- [ ] 第 2 章: Getting Started with TinyML → `docs/02_notes_ch2_getting_started.md`
-- [ ] 第 3 章: Wake-Word Detection → `docs/03_notes_ch3_speech_wake_word.md`
-- [ ] 第 4 章: Visual Wake Words → `docs/04_notes_ch4_visual_wake_words.md`
-- [ ] 第 5 章: Motion Classification → `docs/05_notes_ch5_motion_classification.md`
-- [ ] 第 6 章: Anomaly Detection → `docs/06_notes_ch6_anomaly_detection.md`
-- [ ] 第 7 章: Optimizing TinyML Models → `docs/07_notes_ch7_optimizing_tinyml_models.md`
-- [ ] 第 8 章: Deploying TinyML Models → `docs/08_notes_ch8_deploying_tinyml_models.md`
+- [ ] 第 1 章: Introduction → `docs/introduction.md`
+- [ ] 第 2 章: Getting Started → `docs/02_notes_ch2_getting_started.md`
+- [ ] 第 3 章: Getting Up Speed on Machine Learning → `docs/03_notes_ch3_getting_up_speed_on_machine_learning.md`
+- [ ] 第 4 章: The "Hello World" of TinyML:Building and Training a Model → `docs/04_notes_ch4_hello_world_model.md`
+- [ ] 第 5 章: The "Hello World" of TinyML:Building an Application → `docs/05_notes_ch5_hello_world_application.md`
+- [ ] 第 6 章: The "Hello World" of TinyML:Deploying to Microcontroller → `docs/06_notes_ch6_hello_world_deploy.md`
+- [ ] 第 7 章: Wake-Word Detection:Building an Application → `docs/07_notes_ch7_wake_word_application.md`
+- [ ] 第 8 章: Wake-Word Detection:Training a Model → `docs/08_notes_ch8_wake_word_model.md`
+- [ ] 第 9 章: Person Detection:Building an Application → `docs/09_notes_ch9_person_application.md`
+- [ ] 第 10 章: Person Detection:Training a Model → `docs/10_notes_ch10_person_model.md`
+- [ ] 第 11 章: Magic Wand:Building an Application → `docs/11_notes_ch11_magic_wand_application.md`
+- [ ] 第 12 章: Magic Wand:Training a Model → `docs/12_notes_ch12_magic_wand_model.md`
+- [ ] 第 13 章: TensorFlow Lite for Microcontrollers → `docs/13_notes_ch13_tensorflow_lite_microcontrollers.md`
+- [ ] 第 14 章: Designing Your Own TinyML Application → `docs/14_notes_ch14_design_your_application.md`
+- [ ] 第 15 章: Optimizing Latency → `docs/15_notes_ch15_optimizing_latency.md`
+- [ ] 第 16 章: Optimizing Energy Usage → `docs/16_notes_ch16_optimizing_energy_usage.md`
+- [ ] 第 17 章: Optimizing Model and Binary Size → `docs/17_notes_ch17_optimizing_model_size.md`
+- [ ] 第 18 章: Debugging → `docs/18_notes_ch18_debugging.md`
+- [ ] 第 19 章: Porting Models from TensorFlow to TensorFlow Lite → `docs/19_notes_ch19_porting_models.md`
+- [ ] 第 20 章: Privacy, Security, and Deployment → `docs/privacy_security_deployment.md`
 
 ## メモルール（自分向け）
 

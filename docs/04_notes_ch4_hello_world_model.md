@@ -12,6 +12,8 @@
 ## やってみたこと
 
 - [ ] 本のサンプルコードを PC 上で動かす
+  ../notebooks/04_ch4_hello_world_model.ipynb
+
 - [ ] 学習済みモデルを TFLite に変換する
 
 ## 疑問・メモ
