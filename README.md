@@ -18,7 +18,7 @@ O'Reilly 本 『TinyML: Machine Learning with TensorFlow Lite on Arduino and Ult
 ├── docs/           # 読書ノートやメモ
 ├── models/         # 学習済みモデルや実験ログ
 ├── src/            # スクリプト
-（└── tensorflow/     # github から tensorflow repogitory をclone）
+（└── tensorflow/     # github から tensorflow repogitory をcloneして適宜参照）
 ```
 
 ## セットアップ
