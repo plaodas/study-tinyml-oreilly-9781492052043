@@ -15,9 +15,10 @@ O'Reilly 本 『TinyML: Machine Learning with TensorFlow Lite on Arduino and Ult
 .
 ├── notebooks/      # 各章に対応したノートブック
 ├── data/           # データ (raw: 生データ, processed: 前処理後)
+├── docs/           # 読書ノートやメモ
 ├── models/         # 学習済みモデルや実験ログ
-├── src/            # 再利用しやすいスクリプト群
-└── docs/           # 読書ノートやメモ
+├── src/            # スクリプト
+（└── tensorflow/     # github から tensorflow repogitory をclone）
 ```
 
 ## セットアップ
@@ -40,7 +41,7 @@ pip install -r requirements.txt
 ## 学習の進め方
 
 1. `docs/00_study_plan.md` に自分用の学習計画を書く
-2. 本を読み進めつつ、各章に対応したノートブック例を開く  
+2. 本を読み進めつつ、各章に対応したノートブック例を開く
    - 例: 第 4 章 → `notebooks/04_ch4_hello_world_model.ipynb`
 3. 各章の理解・気づき・疑問は `docs/0X_notes_chX_*.md` にメモ
 4. 実験コードは可能な限り `src/` に切り出し、ノートブックから呼び出すだけにする
