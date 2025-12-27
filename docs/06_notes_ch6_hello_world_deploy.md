@@ -56,10 +56,16 @@
 >> # List USB devices for WSL attach (note the 'busid' column)
 >> usbipd wsl list
 ```
+
   - PowerShellでUSBをwslにアタッチ
+```shell
+> usbipd list
+3-1    2341:805a  USB シリアル デバイス (COM4)                                 Not Shared
 ```
-usbipd bind --busid 3-2
-usbipd attach --busid 3-2 --wsl Ubuntu-24.04
+# 上のリストでは3-1がcom4に充てられている
+```
+usbipd bind --busid 3-1
+usbipd attach --busid 3-1 --wsl Ubuntu-24.04
 usbipd list
 >> wsl -l -v
 ```

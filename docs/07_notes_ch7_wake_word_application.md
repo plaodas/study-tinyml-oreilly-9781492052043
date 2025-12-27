@@ -1,4 +1,4 @@
-# 第 3 章 Wake-Word Detection メモ
+# 第 7 章 Wake-Word Detection メモ
 
 ## この章の目的
 
@@ -18,7 +18,18 @@
 
 ## 疑問・メモ
 
-- 疑問:
-  - 
+- memo:
+  - testのコンパイルと実行
+  ```bash
+  make -f src/tensorflow/lite/experimental/micro/tools/make/Makefile audio_provider_mock_test feature_provider_test audio_provider_test micro_speech_test command_responder_test recognize_commands_test feature_provider_mock_test
+
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/audio_provider_mock_test
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/feature_provider_test
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/audio_provider_test
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/micro_speech_test
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/command_responder_test
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/recognize_commands_test
+  ./tensorflow/lite/experimental/micro/tools/make/gen/linux_x86_64/bin/feature_provider_mock_test
+  ```
 - 応用アイデア:
-  - 
+  -
