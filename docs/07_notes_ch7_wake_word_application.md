@@ -8,7 +8,26 @@
 
 ## キーアイデア
 
-- （読み進めながら箇条書きで）
+```mermaid
+graph TD;
+    A[マイク]-->B
+    subgraph メインループ
+      B[Audio provider]
+      C[Feature provider]
+      D[TF Lite interpreter]
+      E[Command recognizer]
+      F[Command responder]
+    end
+    D<-->M[Model]
+    F-->G[Arduino LED]
+```
+Audio provider: マイクから音声をサンプリング
+Feature provider: 音声をスペクトログラムに変換（FFT）
+TF Lite interpreter: モデルを走らせる
+Model: "yes"/"No"/無音/その他、分類の学習済モデル
+Command recognizer: コマンドが聞こえたかを判断
+Command responder: コマンドに応じて反応を起こす
+
 
 ## やってみたこと
 
