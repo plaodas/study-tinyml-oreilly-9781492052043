@@ -51,3 +51,34 @@ source .venv/bin/activate
 pip install --upgrade pip setuptools
 pip install -r requirements.txt
 ```
+
+
+## ノートブックでモデル作成
+- /content にデータを作成するので作業ディレクトリ作成
+```bash
+mkdir -p ~/work/Oreilly_TinyML/content
+sudo ln -s ~/work/Oreilly_TinyML/content /content
+```
+
+- TesorFlow<=1.15が必要なので、python3.7の環境をdockerで作成、作業ディレクトリをマウントしてコンテナで作業
+```bash
+docker run -it --rm -v "$PWD":/workspace -w /workspace tensorflow/tensorflow:1.15.5-py3 bash
+```
+
+- dockerコンテナの環境でnotebookwp実行する
+ホストOSで
+```bash
+cd /home/agake/work/Oreilly_TinyML
+
+docker run -it --rm -p 8888:8888 \
+-v "/home/agake/work/Oreilly_TinyML":/workspace \
+-v "/home/agake/work/src/tensorflow":/workspace/tensorflow \
+-w /workspace \
+tensorflow/tensorflow:1.15.5-py3
+bash -c "apt-get update -qq && apt-get install -y -qq xxd && \
+pip install -q notebook tf-estimator-nightly==1.14.0.dev2019072901 && \
+mkdir -p /workspace/content && (ln -s /workspace/content /content || true) && \
+jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --notebook-dir=/workspace"
+```
+ブラウザでアクセス
+http://127.0.0.1:8888/?token=<tokennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn>
