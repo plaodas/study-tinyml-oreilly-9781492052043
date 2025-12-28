@@ -82,3 +82,8 @@ jupyter notebook --ip=0.0.0.0 --no-browser --allow-root --notebook-dir=/workspac
 ```
 ブラウザでアクセス
 http://127.0.0.1:8888/?token=<tokennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn>
+
+`!python tensorflow/tensorflow/examples/speech_commands/...`
+を
+`!python /workspace/tensorflow/tensorflow/examples/speech_commands/...`
+に修正して実行
